@@ -20,18 +20,15 @@
 @media (max-width: 767px) {
   .sidebar {
     padding: 1rem;
-    height: 60%;
   }
 }
 @media (max-width: 480px) {
   .sidebar {
     padding: 1rem;
-    height: 50%;
   }
 }
 @media (max-width: 330px) {
   .sidebar {
     padding: 0;
-    height: 40%;
   }
 }

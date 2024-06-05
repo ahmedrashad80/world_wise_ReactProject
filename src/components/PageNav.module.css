@@ -64,6 +64,10 @@ a.ctaLink:visited {
 @media (max-width: 500px) {
   .nav {
     flex-direction: column;
+    position: relative;
+  }
+  .hamburger {
+    display: block;
   }
   .navLinks {
     flex-direction: column;
@@ -72,8 +76,8 @@ a.ctaLink:visited {
     width: 100%;
     display: none;
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: calc(100% - 1.5rem);
+    right: 2.2rem;
   }
 
   .navLinks.open {
@@ -83,10 +87,6 @@ a.ctaLink:visited {
   .header {
     justify-content: space-between;
     width: 100%;
-  }
-
-  .hamburger {
-    display: block;
   }
 
   .navLinks li {

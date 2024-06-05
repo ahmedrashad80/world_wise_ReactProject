@@ -15,7 +15,7 @@ function PageNav() {
       <div className={styles.header}>
         <Logo />
         <div className={styles.hamburger} onClick={toggleMenu}>
-          &#9776;
+          {isOpen ? "✕" : "☰"}
         </div>
       </div>
 

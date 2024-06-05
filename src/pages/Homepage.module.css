@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .homepage {
-  height: calc(100vh);
+  height: 100vh;
   /* margin: 2.5rem; */
   background-image: linear-gradient(
       rgba(36, 42, 46, 0.8),
@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   height: 85%;
+  min-height: 300px;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
@@ -36,11 +37,7 @@
   color: var(--color-light--1);
   margin-bottom: 2.5rem;
 }
-@media (max-width: 768px) {
-  .homepage section {
-    height: 60%;
-  }
-}
+
 @media (max-width: 576px) {
   .homepage {
     padding: 0.5rem 1rem;
