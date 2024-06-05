@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://world-wise-json-server-dmgz.onrender.com";
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
