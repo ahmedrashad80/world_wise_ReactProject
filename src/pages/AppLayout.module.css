@@ -1,0 +1,36 @@
+.app {
+  height: 100vh;
+  /* padding: 2.4rem; */
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+}
+
+.map {
+  flex: 3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    padding: 1.6rem;
+    height: 120vh;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 1.2rem;
+    height: 110vh;
+  }
+
+  .map-container {
+    height: 50%;
+  }
+}

@@ -1,0 +1,86 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 1.5rem;
+  background-color: var(--color-dark--1);
+  /* min-height: calc(100vh - 5rem); */
+}
+
+.form {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 48rem;
+  margin: 8rem auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.row label {
+  font-size: 1.4rem;
+  color: var(--color-light--2);
+}
+
+.row input {
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid var(--color-light--2);
+  border-radius: 5px;
+  background-color: var(--color-light--2);
+  color: rgb(42, 41, 41);
+}
+
+.row input:focus {
+  border-color: var(--color-brand--2);
+  outline: none;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  /* background-color: var(--color-brand--3); */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .login {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .form {
+    padding: 1.5rem 2rem;
+    margin: 4rem auto;
+  }
+
+  .row label,
+  .row input,
+  button {
+    font-size: 1.4rem;
+  }
+
+  .row input {
+    padding: 0.8rem;
+  }
+
+  button {
+    padding: 0.8rem 1.5rem;
+  }
+}

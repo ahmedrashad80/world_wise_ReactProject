@@ -1,0 +1,15 @@
+.logo {
+  height: 5.2rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 3.5rem;
+  }
+}
+/* @media (max-width: 330px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+} */

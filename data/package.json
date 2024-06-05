@@ -1,0 +1,10 @@
+{
+  "name": "json-server-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch cities.json --port ${PORT:-9000} --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

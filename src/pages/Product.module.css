@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-dark--1);
+}
+.product {
+  padding: 2.5rem 1.5rem;
+  background-color: var(--color-dark--1);
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section Styling */
+.product section {
+  margin: 3rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+/* Image Styling */
+.product img {
+  width: 100%;
+}
+
+/* Header Styling */
+.product h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+/* Paragraph Styling */
+.product p {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Link Styling */
+.product section a {
+  margin-top: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .product {
+    padding: 2rem 1rem;
+  }
+
+  .product section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .product h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .product p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .product img {
+    width: 100%;
+  }
+}
