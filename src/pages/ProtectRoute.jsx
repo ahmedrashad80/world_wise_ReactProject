@@ -7,7 +7,7 @@ function ProtectRoute({ children }) {
   const { isAuthenticated } = useAuth();
   useEffect(
     function () {
-      if (!isAuthenticated) navigate("/");
+      if (!isAuthenticated) navigate("/login");
     },
     [isAuthenticated]
   );
