@@ -21,7 +21,7 @@
 <img src="img/query string.PNG" alt="Home Page" width="400">
 
 ## Responsive Design
-
+<div style="display: flex; flex-wrap: wrap;">
 <img src="img/resposive/home.jpeg" alt="Pricing View" width="200">
 <img src="img/resposive/icon.jpeg" alt="Icon View" width="200">
 <img src="img/resposive/1.jpeg" alt="Home Page" width="200">
@@ -34,7 +34,7 @@
 <img src="img/resposive/pricing.jpeg" alt="Pricing View" width="200">
 <img src="img/resposive/form.jpeg" alt="Pricing View" width="200">
 <img src="img/resposive/location.jpeg" alt="Pricing View" width="200">
-
+</div>
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
