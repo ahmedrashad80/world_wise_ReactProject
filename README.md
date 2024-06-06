@@ -12,6 +12,8 @@
 
 ## image
 
+<img src="img/city.PNG" alt="Home Page" width="400">
+
 ![text](img/city.PNG) ![text](img/Cities.PNG) ![text](img/form.PNG) ![text](img/home.PNG) ![text](img/login.PNG) ![text](<img/query string.PNG>)
 
 ## Responsive Design
