@@ -24,7 +24,7 @@
 
 <img src="img/resposive/home.jpeg" alt="Pricing View" width="200">
 <img src="img/resposive/icon.jpeg" alt="Icon View" width="200">
-<img src="img/resposive/1.jpeg" alt="Home Page" width="400">
+<img src="img/resposive/1.jpeg" alt="Home Page" width="200">
 <img src="img/resposive/cities 2.jpeg" alt="Cities View 1" width="200">
 <img src="img/resposive/cities 3.jpeg" alt="Cities View 2" width="200">
 <img src="img/resposive/cities.jpeg" alt="Cities View 3" width="200">
