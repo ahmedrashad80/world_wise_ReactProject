@@ -9,16 +9,31 @@
 - Routing: Implemented with React Router, including nested routes, dynamic routes, useSearchParams, and useNavigate.
 - State Management: Managed with Context API to avoid prop drilling.
   This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- using fake authentication
 
 ## image
 
+<img src="img/home.PNG" alt="Home Page" width="400">
+<img src="img/Cities.PNG" alt="Home Page" width="400">
 <img src="img/city.PNG" alt="Home Page" width="400">
-
-![text](img/city.PNG) ![text](img/Cities.PNG) ![text](img/form.PNG) ![text](img/home.PNG) ![text](img/login.PNG) ![text](<img/query string.PNG>)
+<img src="img/form.PNG" alt="Home Page" width="400">
+<img src="img/login.PNG" alt="Home Page" width="400">
+<img src="img/query string.PNG" alt="Home Page" width="400">
 
 ## Responsive Design
 
-![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.29 AM (1).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.29 AM (2).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.29 AM (3).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.29 AM.jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (1).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (2).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (3).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (4).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (5).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (6).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM (7).jpeg>) ![alt text](<img/WhatsApp Unknown 2024-06-06 at 6.06.18 AM/WhatsApp Image 2024-06-06 at 5.57.30 AM.jpeg>)
+<img src="img/resposive/home.jpeg" alt="Pricing View" width="200">
+<img src="img/resposive/icon.jpeg" alt="Icon View" width="200">
+<img src="img/resposive/1.jpeg" alt="Home Page" width="400">
+<img src="img/resposive/cities 2.jpeg" alt="Cities View 1" width="200">
+<img src="img/resposive/cities 3.jpeg" alt="Cities View 2" width="200">
+<img src="img/resposive/cities.jpeg" alt="Cities View 3" width="200">
+<img src="img/resposive/city.jpeg" alt="City View" width="200">
+<img src="img/resposive/cuntry.jpeg" alt="Country View" width="200">
+<img src="img/resposive/login.jpeg" alt="Login View" width="200">
+<img src="img/resposive/pricing.jpeg" alt="Pricing View" width="200">
+<img src="img/resposive/form.jpeg" alt="Pricing View" width="200">
+<img src="img/resposive/location.jpeg" alt="Pricing View" width="200">
 
 Currently, two official plugins are available:
 
