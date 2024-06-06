@@ -12,14 +12,14 @@
 - using fake authentication
 
 ## image
-
+<div style="display: flex; flex-wrap: wrap;">
 <img src="img/home.PNG" alt="Home Page" width="400">
 <img src="img/Cities.PNG" alt="Home Page" width="400">
 <img src="img/city.PNG" alt="Home Page" width="400">
 <img src="img/form.PNG" alt="Home Page" width="400">
 <img src="img/login.PNG" alt="Home Page" width="400">
 <img src="img/query string.PNG" alt="Home Page" width="400">
-
+</div>
 ## Responsive Design
 <div style="display: flex; flex-wrap: wrap;">
 <img src="img/resposive/home.jpeg" alt="Pricing View" width="200">
